@@ -616,8 +616,11 @@
     .container  {
         padding: 0 20px;
     }
-    .navbar img {
-        width: 150px;
+    .navbar__s1 img {
+        width: 50px;
+    }
+    .navbar__s1 h1 {
+        font-size: 24px;
     }
     .navbar__s2 button {
         padding: 10px;
