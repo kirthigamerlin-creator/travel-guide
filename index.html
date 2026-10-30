@@ -1,0 +1,383 @@
+<!DOCTYPE html><html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Travel guide</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+
+            <!-- nav bar -->
+            <div class="navbar">
+                <div class="navbar__s1">
+                    <img src="./images/binoculars.png" alt="Travel guide logo" />
+                    <h1>Travel guide</h1>
+                </div>
+                <div class="navbar__s2">
+                    <button class="aiBtn">
+                        <i class="fa-regular fa-comment-dots"></i>
+                        <span class="aiText isNotMobile">Plan with AI</span>
+                    </button>
+                    <button class="isDesktop">Discover</button>
+                    <button class="isDesktop">Review</button>
+                    <button class="isDesktop">More</button>
+                    <button><i class="fa-solid fa-bars"></i></button>
+                    <button class="isDesktop"><i class="fa-solid fa-globe"></i> | INR</button>
+                    <button class="signin">Sign in</button>
+                </div>
+            </div>
+
+            <!-- search bar -->
+            <div class="searchbar">
+                <h1>Where to?</h1>
+                <div class="searchbar__s2">
+                    <i class="fa-solid fa-magnifying-glass isNotMobile"></i>
+                    <input type="text" placeholder="Places to go, things to do, hotels.." />
+                    <button class="isDesktop">Ask AI</button>
+                    <button class="searchBtn">Search</button>
+                </div>
+            </div>
+
+            <!-- Book now -->
+            <div class="book-section">
+                <div class="book-section__image-box">
+                    <image src="./images/book_img1.jpg" />
+                </div>
+                <div class="vertical-line"></div>
+                <div class="book-section__section2">
+                    <h1>Find things to do for everything you're into</h1>
+                    <p>Browse 400,000+ experiences and book with us</p>
+                    <button>Book now</button>
+                </div>
+            </div>
+
+            <!-- interest section -->
+            <div class="interest-section">
+                <h2>Find things to do by interest</h2>
+                <p>Whatever you're into, we've got it</p>
+                <div class="interest-section__s2">
+                    <div class="interest-section__img">
+                        <img src="./images/outdoor.jpg" alt="interest image" />
+                        <h1>Outdoors</h1>
+                    </div>
+                    <div class="interest-section__img">
+                        <img src="./images/food.jpg" alt="interest image" />
+                        <h1>Food</h1>
+                    </div>
+                    <div class="interest-section__img">
+                        <img src="./images/culture.jpg" alt="interest image" />
+                        <h1>Culture</h1>
+                    </div>
+                    <div class="interest-section__img">
+                        <img src="./images/water.jpg" alt="interest image" />
+                        <h1>Water</h1>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Adv section -->
+            <div class="adv-section">
+                <div class="adv-section__s1">
+                    <h4>Fly Air New Zealand via singapore to North and South Islands</h4>
+                    <p>Connecting you to 20 domestic destinations, with refreshed 787-9 cabins on same flights!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <img src="./images/caption.jpg" alt="adv image" />
+            </div>
+
+            <!-- Explore section -->
+            <div class="exp-section">
+                <h2>Explore experiences near Chennai(Madras)</h2>
+                <p>Can't miss picks near you</p>
+                <div class="exp-section__card-container">
+                    <div class="exp-section__card">
+                        <div class="exp-section__image">
+                            <img src="./images/exp1.jpg" alt="explore image" />
+                            <span class="heart-icon"><i class="fa-regular fa-heart"></i></span>
+                        </div>
+                        <h3>Chennai tour in car with guide-winner of traveller's choice award</h3>
+                        <p>
+                            5.0
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            (284)
+                        </p>
+                        <p class="price">from &#8377;10,236 per adult</p>
+                    </div>
+                    <div class="exp-section__card">
+                        <div class="exp-section__image">
+                            <img src="./images/exp2.jpg" alt="explore image" />
+                            <span class="heart-icon"><i class="fa-regular fa-heart"></i></span>
+                        </div>
+                        <h3>Mahabalipuram Private Tour with Lunch and Guide from Chennai</h3>
+                        <p>
+                            4.9
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            (132)
+                        </p>
+                        <p class="price">from &#8377;8,676 per adult</p>
+                    </div>
+                    <div class="exp-section__card">
+                        <div class="exp-section__image">
+                            <img src="./images/exp3.jpg" alt="explore image" />
+                            <span class="heart-icon"><i class="fa-regular fa-heart"></i></span>
+                        </div>
+                        <h3>PRIVATE Chennai Cooking Class in a Local Home with Meena</h3>
+                        <p>
+                            5.0
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            (51)
+                        </p>
+                        <p class="price">from &#8377;5,264 per adult</p>
+                    </div>
+                    <div class="exp-section__card">
+                        <div class="exp-section__image">
+                            <img src="./images/exp4.jpg" alt="explore image" />
+                            <span class="heart-icon"><i class="fa-regular fa-heart"></i></span>
+                        </div>
+                        <h3>Exploring George Town Chennai Heritage and Bazaar Walking Tour</h3>
+                        <p>
+                            4.7
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            <span class="rating half-rating"></span>
+                            (20)
+                        </p>
+                        <p class="price">from &#8377;2,827 per adult</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- donate section -->
+            <div class="donate-section">
+                <img src="./images/donate.jpg" alt="donate image" />
+                <div class="donate-section__section2">
+                    <p class="heading">
+                        <img src="./images/binoculars.png" alt="Travel guide logo" />
+                        Travel guide Foundation
+                    </p>
+                    <h1>Show some love to small business</h1>
+                    <p>Donate to Kiva.org today to provide loans to local entrepreneurs and the Travel guide Foundation will match it, up to $150,000 USD collectively. Terms apply.</p>
+                    <button>Donate now</button>
+                </div>
+            </div>
+
+             <!-- Adv section -->
+            <div class="adv-section">
+                <div class="adv-section__s1">
+                    <h4>Fly Air New Zealand via singapore to North and South Islands</h4>
+                    <p>Connecting you to 20 domestic destinations, with refreshed 787-9 cabins on same flights!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <img src="./images/caption.jpg" alt="adv image" />
+            </div>
+        </div>
+
+        <!-- inspiration section -->
+        <div class="inspiration-section">
+            <h2>Inspiration to get you going</h2>
+            <div class="inspiration-section__container">
+                <div class="inspiration-section__card">
+                    <div class="inspiration-section__image">
+                        <img src="./images/inspiration1.jpg" alt="inspiration image" />
+                        <span class="heart-icon"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                    <a href="#">15 U.S. fall-foliage trips—no car required</a>
+                </div>
+                <div class="inspiration-section__card">
+                    <div class="inspiration-section__image">
+                        <img src="./images/inspiration2.jpg" alt="inspiration image" />
+                        <span class="heart-icon"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                    <a href="#">The most magical towns in the Pacific Northwest</a>
+                </div>
+                <div class="inspiration-section__card">
+                    <div class="inspiration-section__image">
+                        <img src="./images/inspiration3.jpg" alt="inspiration image" />
+                        <span class="heart-icon"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                    <a href="#">5 set-jetting adventures kids will love</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- supernatural section -->
+            <div class="exp-section">
+                <h2>Spot something supernatural</h2>
+                <p>Give yourself the chills on a ghost tour</p>
+                <div class="exp-section__card-container">
+                    <div class="exp-section__card">
+                        <div class="exp-section__image">
+                            <img src="./images/supernatural1.jpg" alt="explore image" />
+                            <span class="heart-icon"><i class="fa-regular fa-heart"></i></span>
+                        </div>
+                        <p class="supernatural-name">Kyoto</p>
+                        <h3>Kyoto Ghost Tour: Dark Tales, Urban Legends, Bamboo Forest Night</h3>
+                        <p>
+                            5.0
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            (284)
+                        </p>
+                        <p class="price">from &#8377;10,236 per adult</p>
+                    </div>
+                    <div class="exp-section__card">
+                        <div class="exp-section__image">
+                            <img src="./images/supernatural2.jpg" alt="explore image" />
+                            <span class="heart-icon"><i class="fa-regular fa-heart"></i></span>
+                        </div>
+                        <p class="supernatural-name">Munich</p>
+                        <h3>Munich Ghosts and Spirits Evening Walking Tour</h3>
+                        <p>
+                            4.9
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            (132)
+                        </p>
+                        <p class="price">from &#8377;8,676 per adult</p>
+                    </div>
+                    <div class="exp-section__card">
+                        <div class="exp-section__image">
+                            <img src="./images/supernatural3.jpg" alt="explore image" />
+                            <span class="heart-icon"><i class="fa-regular fa-heart"></i></span>
+                        </div>
+                        <p class="supernatural-name">New Orleans</p>
+                        <h3>Adults-Only New Orleans Ghost, Crime, Voodoo, and Vampire Tour</h3>
+                        <p>
+                            5.0
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            (51)
+                        </p>
+                        <p class="price">from &#8377;5,264 per adult</p>
+                    </div>
+                    <div class="exp-section__card">
+                        <div class="exp-section__image">
+                            <img src="./images/supernatural4.jpg" alt="explore image" />
+                            <span class="heart-icon"><i class="fa-regular fa-heart"></i></span>
+                        </div>
+                        <p class="supernatural-name">Toronto</p>
+                        <h3>Toronto Ghost Tour: The Original Haunted Walk</h3>
+                        <p>
+                            4.7
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            <span class="rating"></span>
+                            <span class="rating half-rating"></span>
+                            (20)
+                        </p>
+                        <p class="price">from &#8377;2,827 per adult</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- iconic section -->
+            <div class="iconic-section">
+                <h2>Iconic places you need to see</h2>
+                <div class="iconic-section__container">
+                    <div class="iconic-section__card">
+                        <div class="iconic-section__card--imageHolder">
+                            <img src="./images/iconic1.jpg" alt="iconic image" />
+                        </div>
+                        <p>Rome, Italy</p>
+                    </div>
+                    <div class="iconic-section__card">
+                        <div class="iconic-section__card--imageHolder">
+                            <img src="./images/iconic2.jpg" alt="iconic image" />
+                        </div>
+                        <p>Paris, France</p>
+                    </div>
+                    <div class="iconic-section__card">
+                        <div class="iconic-section__card--imageHolder">
+                            <img src="./images/iconic3.jpg" alt="iconic image" />
+                        </div>
+                        <p>Las Vegas, NV</p>
+                    </div>
+                    <div class="iconic-section__card">
+                        <div class="iconic-section__card--imageHolder">
+                            <img src="./images/iconic4.jpg" alt="iconic image" />
+                        </div>
+                        <p>London, UK</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="traveller-section">
+            <div class="traveller-section__section1">
+                <!-- <img src="./images/traveller_logo.svg" alt="traveller logo" /> -->
+                <h1>Travellers' Choice Awards Best of the Best</h1>
+                <p>Among our top 1% of places, stays, eats, and experiences-decided by you.</p>
+                <button>See the winners</button>
+            </div>
+            <img class="traveller-img" src="./images/supernatural1.jpg" alt="traveller image" />
+        </div>
+        <div class="footer-section">
+            <div class="footer__one">
+                <div class="footer__one__s1">
+                    <p class="footer_title">About Travel guide</p>
+                    <p>About us</p>
+                    <p>Press</p>
+                    <p>Resources and policies</p>
+                    <p>Careers</p>
+                    <p>Trust & safety</p>
+                    <p>Contact us</p>
+                </div>
+                <div class="footer__one__s2">
+                    <p class="footer_title">Explore</p>
+                    <p>Things to do</p>
+                    <p>Hotels</p>
+                    <p>Restaurants</p>
+                    <p>Cruises</p>
+                    <p>Write a review</p>
+                    <p>Add a place</p>
+                </div>
+                <div class="footer__one__s3">
+                    <p class="footer_title">Do Business With Us</p>
+                    <p>Owners & DMO/CVB</p>
+                    <p>Business Advantage</p>
+                    <p>Sponsored Placements</p>
+                    <p>Advertise with Us</p>
+                    <p>Access our Content API</p>
+                    
+                    <p class="footer_title footer_space">Get the App</p>
+                    <p>iPhone App</p>
+                    <p>Android App</p>
+                </div>
+            </div>
+            <div class="footer__two">
+                <img src="./images/binoculars.png" alt="logo" />
+                <p>&copy; 2026 Travel guide LLC All rights reserved.</p>
+            </div>
+        </div>
+    </body>
+</html>
